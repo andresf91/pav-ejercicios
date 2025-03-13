@@ -3,14 +3,14 @@
 
 class Coordenada {
     private:
-        int x;
-        int y;
+        double x;
+        double y;
     
     public:
-        int getX();
-        int getY();
-        void setX(int val);
-        void setY(int val);
+        double getX();
+        double getY();
+        void setX(double val);
+        void setY(double val);
 };
 
 #endif

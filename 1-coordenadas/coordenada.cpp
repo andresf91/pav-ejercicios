@@ -1,17 +1,17 @@
 #include "coordenada.h"
 
-int Coordenada::getX(){
+double Coordenada::getX(){
     return x;
 };
 
-int Coordenada::getY(){
+double Coordenada::getY(){
     return y;
 }
 
-void Coordenada::setX(int val){
+void Coordenada::setX(double val){
     this->x=val;
 };
 
-void Coordenada::setY(int val){
+void Coordenada::setY(double val){
     this->y=val;
 };
