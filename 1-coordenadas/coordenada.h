@@ -9,8 +9,8 @@ class Coordenada {
     public:
         int getX();
         int getY();
-        int setX(int x);
-        int setY(int y);
+        void setX(int val);
+        void setY(int val);
 };
 
 #endif
