@@ -9,10 +9,11 @@ class Segmento {
         Coordenada p2;
     
         public:
+            Segmento(Coordenada ValP1, Coordenada ValP2);
             Coordenada getP1();
             Coordenada getP2();
-            void setP1(Coordenada p);
-            void setP2(Coordenada p);
+            void setP1(double p1X, double p1Y);
+            void setP2(double p2X, double p2Y);
             double largoSegmento(Coordenada c1, Coordenada c2);
 };
 
